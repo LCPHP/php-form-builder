@@ -1,14 +1,11 @@
-# php-form-builder
-
-> php表单构建类
-
-###　使用示例demo
-
-demo.php
-```php
 <?php
-   
-require_once "php-form-builder/vendor/autoload.php";
+/**
+ * Created by PhpStorm.
+ * User: Administrator
+ * Date: 2017/3/22
+ * Time: 16:04
+ */
+require_once "./vendor/autoload.php";
 
 $config = [
     'ns' => 'we',
@@ -56,5 +53,3 @@ $html = $form->setFormName('form-1')
     ->build();
 
 echo $html;
-
-```
