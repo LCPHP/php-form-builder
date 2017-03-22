@@ -8,16 +8,12 @@
             "email": "332553882@qq.com"
         }
     ],
+    "version" : "0.1.0",
     "require": {},
     "autoload" : {
         "psr-4" : {
             "niklaslu\\" : "src"
         }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.phpcomposer.com"
-        }
     }
+
 }
