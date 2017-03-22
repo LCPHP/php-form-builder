@@ -1,6 +1,7 @@
 {
     "name": "niklaslu/php-form-builder",
     "description": "php表单构造器",
+    "keyword" : ["php" , "form-builder"],
     "license": "apache2.0",
     "authors": [
         {
