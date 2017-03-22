@@ -1,0 +1,23 @@
+{
+    "name": "niklaslu/php-form-builder",
+    "description": "php表单构造器",
+    "license": "apache2.0",
+    "authors": [
+        {
+            "name": "Niklas Lu",
+            "email": "332553882@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "niklaslu\\" : "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
