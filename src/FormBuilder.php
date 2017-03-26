@@ -296,7 +296,7 @@ class FormBuilder {
                 }
                 foreach ($elements as $ele){
                     $type = $ele['type'];
-                    if ($type == 'text' || $type == 'hidden' || $type == 'password' || $type == 'email' || $type == 'file' || $type =='button'){
+                    if ($type == 'text' || $type == 'hidden' || $type == 'password' || $type == 'email' || $type == 'file' || $type =='button' || $type == 'number'){
                         $elementsHtml .= $this->buildInput($ele);
                     }
                     if ($type == 'textarea') {
