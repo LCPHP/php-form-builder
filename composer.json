@@ -9,7 +9,7 @@
             "email": "332553882@qq.com"
         }
     ],
-    "version" : "0.1.1",
+    "version" : "1.0.1",
     "require": {},
     "autoload" : {
         "psr-4" : {
